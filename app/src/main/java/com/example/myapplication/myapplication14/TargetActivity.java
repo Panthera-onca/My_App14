@@ -15,10 +15,10 @@ public class TargetActivity extends AppCompatActivity {
         setContentView(R.layout.activity_target);
 
         SharedPreferences spIntra = getPreferences(MODE_PRIVATE);
-        String valeurIntra = spIntra.getString(MainActivity.CLE_INTRA, "null");
+        String valeurIntra = spIntra.getString(MainActivity.CLE_INTRA, "VIDE");
 
         SharedPreferences spInter = getSharedPreferences(MainActivity.NOM_FICHIER, MODE_PRIVATE);
-        String valeurInter = spInter.getString(MainActivity.CLE_INTER, "null");
+        String valeurInter = spInter.getString(MainActivity.CLE_INTER, "VIDE");
         TextView tvIntra = findViewById(R.id.valeur_intra);
         tvIntra.setText(valeurIntra);
         TextView tvInter = findViewById(R.id.valeur_inter);
