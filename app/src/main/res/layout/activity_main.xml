@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!--INTRA-->
+    <TextView
+        android:id="@+id/tv_intra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intra activité"
+         />
+
+    <EditText
+        android:id="@+id/et_intra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_intra"/>
+
+    <Button
+        android:id="@+id/btn_intra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer"
+        android:layout_below="@id/et_intra"
+        android:onClick="onClickIntra"/>
+
+    <!--INTER-->
+    <TextView
+        android:id="@+id/tv_inter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intre activité!"
+        />
+
+    <EditText
+        android:id="@+id/et_inter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_inter"/>
+
+    <Button
+        android:id="@+id/btn_inter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer"
+        android:layout_below="@id/et_inter"
+        android:onClick="onClickInter"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Target Activity"
+        android:layout_below="@id/btn_inter"
+        android:onClick="onClickTargetActivity"/>
+
+</RelativeLayout>

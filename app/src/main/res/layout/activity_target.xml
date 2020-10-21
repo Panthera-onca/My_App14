@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TargetActivity">
+
+    <TextView
+        android:id="@+id/valeur_intra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XXX_INTRA"/>
+
+    <TextView
+        android:id="@+id/valeur_inter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XXX_INTER"
+        android:layout_below="@id/valeur_intra"/>
+
+</RelativeLayout>
