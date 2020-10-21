@@ -29,7 +29,7 @@
         android:layout_below="@id/et_intra"
         android:onClick="onClickIntra"/>
 
-    <!--INTER-->
+
     <TextView
         android:id="@+id/tv_inter"
         android:layout_width="match_parent"

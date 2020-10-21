@@ -7,16 +7,16 @@
     tools:context=".TargetActivity">
 
     <TextView
-        android:id="@+id/valeur_intra"
+        android:id="@+id/tv_intra"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="XXX_INTRA"/>
+        android:text="XXX"/>
 
     <TextView
-        android:id="@+id/valeur_inter"
+        android:id="@+id/tv_inter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="XXX_INTER"
-        android:layout_below="@id/valeur_intra"/>
+        android:text="XXX"
+        android:layout_below="@id/tv_intra"/>
 
 </RelativeLayout>

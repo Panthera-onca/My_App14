@@ -14,10 +14,16 @@ public class MainActivity extends AppCompatActivity {
     public static final String CLE_INTER = "inter";
     public static final String NOM_FICHIER = "inter";
 
+    private EditText etInter = null;
+    private EditText etIntra = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        etInter = findViewById(R.id.et_inter);
+        etIntra = findViewById(R.id.et_intra);
     }
 
     public void onClickTargetActivity(View view) {
